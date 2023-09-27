@@ -580,7 +580,7 @@ a:focus {
   z-index: 1000;
 }
 
-.service_section .box .img-box img:hover {
+.service_section .box .img-box .hoverable:hover {
   transform: scale(1.2);
   width: max-content;
   height: max-content;
@@ -1290,8 +1290,15 @@ a:focus {
 
 /*# sourceMappingURL=style.css.map */
 
-.personalizados_section {
-  margin-top: 50px;
+.personalizados_section .bolsas {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.personalizados_section .bolsas div {
+  margin-right: 5px;
 }
 
 .box {
